@@ -2,13 +2,13 @@
 
 A powerful Model Context Protocol (MCP) server that transforms AI assistants into mathematical powerhouses with 100% deterministic calculations.
 
-## 🎯 Why This Exists
+##  Why This Exists
 
 Small Large Language Models (LLMs) are excellent at generating text but struggle with precise mathematical calculations. They predict the next token, which often leads to "hallucinated" answers for complex computations. This MCP server solves that problem by giving AI assistants access to a reliable calculator that computes accurate answers instead of guessing.
 
 **The Solution:** Instead of asking the AI to guess mathematical answers, we provide it with a Calculator (this Server) so it can compute the answer with precision.
 
-## ✨ Features
+##  Features
 
 This server provides 30+ mathematical tools across 8 categories:
 
@@ -52,7 +52,7 @@ This server provides 30+ mathematical tools across 8 categories:
 - Random number generation
 - Mathematical constants (π, e)
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -80,7 +80,7 @@ uv add fastmcp
 uv run python main.py
 ```
 
-## 🧪 Testing with FastMCP Inspector
+##  Testing with FastMCP Inspector
 
 Before connecting to an AI client, test your tools using the built-in Inspector:
 
@@ -94,7 +94,7 @@ This opens an interactive interface where you can:
 - See JSON-RPC messages in real-time
 - Verify outputs before production use
 
-## 🔗 Connecting to Claude Desktop
+##  Connecting to Claude Desktop
 
 ### Automatic Installation
 
@@ -210,19 +210,17 @@ This project is open source and available under the MIT License.
 
 ## 🙏 Acknowledgments
 
-- Built with [FastMCP](https://github.com/jlowin/fastmcp) by @jlowin
-- Powered by [Anthropic's Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)
-- Package management by [uv](https://github.com/astral-sh/uv)
+- Built with [FastMCP](https://github.com/jlowin/fastmcp)
+- Learnt from [Campusx](https://www.youtube.com/@campusx-official)
 
 ## 📖 Learn More
 
 Read the full tutorial series on Medium:
-- **Part 1**: Why the era of isolated AI is ending
-- **Part 2**: Understanding MCP architecture
-- **Part 3**: Building this Unified Math Server
-- **Part 4**: Building Remote MCP servers
-
----
+- [Part 1](https://medium.com/@puneeth01062002/the-end-of-the-human-api-why-model-context-protocol-mcp-is-the-future-of-ai-5daf8aec672a): Why the era of isolated AI is ending
+- [Part 1](https://medium.com/@puneeth01062002/under-the-hood-of-mcp-the-architecture-of-ais-new-standard-bbfb0afefd07): Understanding MCP architecture
+- [Part 1](https://medium.com/@puneeth01062002/how-to-build-first-mcp-server-building-an-unified-math-server-becea81ed020): Building this Unified Math Server
+- How to Build Remote MCP server
+- How to Build MCP client
 
 **Found this helpful?** ⭐ Star this repo and share your feedback!
 
