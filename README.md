@@ -4,7 +4,7 @@ A powerful Model Context Protocol (MCP) server that transforms AI assistants int
 
 ##  Why This Exists
 
-Small Large Language Models (LLMs) are excellent at generating text but struggle with precise mathematical calculations. They predict the next token, which often leads to "hallucinated" answers for complex computations. This MCP server solves that problem by giving AI assistants access to a reliable calculator that computes accurate answers instead of guessing.
+Small Language Models (SLMs) are excellent at generating text but struggle with precise mathematical calculations. They predict the next token, which often leads to "hallucinated" answers for complex computations. This MCP server solves that problem by giving AI assistants access to a reliable calculator that computes accurate answers instead of guessing.
 
 **The Solution:** Instead of asking the AI to guess mathematical answers, we provide it with a Calculator (this Server) so it can compute the answer with precision.
 
